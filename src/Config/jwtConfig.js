@@ -8,7 +8,7 @@ const checkToken = (req, res, next) => {
             next();
         }
     } catch (error) {
-        res.status(403).send(`Không có quyền truy cập: ${error}`);
+        res.status(403).send(`Không có quyền truy cập`);
     }
 };
 

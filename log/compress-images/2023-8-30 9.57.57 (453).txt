@@ -1,0 +1,8 @@
+File from: [C:\Users\PC\OneDrive\Máy tính\capstone/public/img/1696042677201_milktea.png]
+
+File to: [./public/file/1696042677201_milktea.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: C:\Users\PC\OneDrive\Máy tính\capstone\node_modules\pngquant-bin\vendor\pngquant.exe --quality=20-50 -o ./public/file/1696042677201_milktea.png C:\Users\PC\OneDrive\Máy tính\capstone/public/img/1696042677201_milktea.png
+  error: cannot open C:\Users\PC\OneDrive\Máy tính\capstone\public\img\1696042677201_milktea.png for reading
