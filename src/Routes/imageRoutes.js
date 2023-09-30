@@ -24,7 +24,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({storage});
 
-imageRoutes.post("/upload", upload.single("file"), async (req, res) => {
+imageRoutes.post("/upload", checkToken ,upload.single("file"), async (req, res) => {
     try {
         if (!req.file) {
             return res.status(400).send("Vui lòng chọn một tệp để tải lên.");

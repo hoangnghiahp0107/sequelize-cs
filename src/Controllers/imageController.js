@@ -43,7 +43,7 @@ const getSaveImage = async (req, res) => {
             }
         });
         if (data) {
-            res.send("Ảnh đã được lưu" );
+            res.send(data);
         } else {
             res.send("Ảnh chưa được lưu");
         }
